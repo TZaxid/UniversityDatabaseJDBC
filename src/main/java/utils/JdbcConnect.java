@@ -9,6 +9,7 @@ public class JdbcConnect {
     private final static String PSWD = "02580258";
     private final static String URL = "jdbc:postgresql:university";
 
+
     public static Connection getConnection() {
         try {
             return DriverManager.getConnection(URL, USER, PSWD);
